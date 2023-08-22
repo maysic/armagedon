@@ -1,0 +1,55 @@
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.name {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.orbita {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.danger {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+span {
+  display: inline-block;
+  padding-left: 10px;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #F86600;
+  border-radius: 16px;
+  padding: 8px;
+  color: #fff;
+  width: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+.back:hover {
+  color: #F86600;
+  background-color: #fff;
+}
