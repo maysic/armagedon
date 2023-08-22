@@ -16,7 +16,7 @@ export default async function Home() {
         <button className={styles.btn}>
           в километрах
         </button>
-        <span>|</span>
+        <span className={styles.slash}>|</span>
         <button className={styles.btn}>
           в лунных орбитах
         </button>
